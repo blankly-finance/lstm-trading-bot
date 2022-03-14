@@ -1,0 +1,18 @@
+PACKAGES:
+blankly -- the platform we are building a model on
+PyTorch -- the package we'll use for the ML model
+NumPy -- package we'll use for manipulating data
+
+INSTALLATION: 
+pip install blankly torch numpy
+
+OR
+
+If you like to use virtual environments for execution,
+pip install blankly
+conda install torch numpy
+
+SETUP:
+blankly init
+and all that's needed is to fill in keys.json with API details
+If you want, you can also customize backtest parameters in backtest.json and settings in settings.json.
