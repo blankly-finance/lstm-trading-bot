@@ -186,4 +186,4 @@ if __name__ == '__main__':
     strategy.add_price_event(price_lstm, symbol='ETH-USD', resolution='1d', init=init_NN) #Add our price event and initialization
     results = strategy.backtest(to='1y', initial_values={'USD': 10000}) #Backtest one year starting with $10,000
     with open('backtest_results.txt', 'w+') as br:
-        br.write(results)
+        br.write(str(results))
