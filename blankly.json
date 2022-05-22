@@ -1,5 +1,5 @@
 {
-  "main_script": "./bot.py",
+  "main_script": "./BarLSTMBot.py",
   "python_version": "3.7",
   "requirements": "./requirements.txt",
   "working_directory": ".",
